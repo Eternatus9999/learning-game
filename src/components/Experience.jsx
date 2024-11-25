@@ -11,7 +11,7 @@ export const Experience = () => {
       <directionalLight position={[5, 1, 5]} intensity={0.8} castShadow />
       
       {/* BACKGROUND */}
-      <Lap scale={[60, 60, 60]}/>
+      <Lap scale={[16, 16, 16]} position={[12, 0, 0]}/>
 
       {/* STAGE */}
       <RigidBody type="fixed" position={-0.5} colliders={false}>
